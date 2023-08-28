@@ -1,5 +1,8 @@
 package com.exception_handling;
 
+import lombok.Getter;
+
+@Getter
 public class DuplicateEntity extends RuntimeException {
 
   private final String entityName;
@@ -15,12 +18,5 @@ public class DuplicateEntity extends RuntimeException {
   public static DuplicateEntity product(final String entityId) {
     return new DuplicateEntity("Product", entityId);
   }
-
-  public String getEntityName() {
-    return entityName;
-  }
-
-  public String getEntityId() {
-    return entityId;
-  }
+  
 }
