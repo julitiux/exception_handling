@@ -32,3 +32,6 @@ build/*
 
 # vim
 *.swp
+
+# postgres
+datapg/*
