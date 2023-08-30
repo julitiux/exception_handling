@@ -11,8 +11,8 @@ public class UserServiceImpl implements UserService {
 
   @Override
   public User addUser(User user) {
-    if(userRepository.findByUsername(user.username).isPresent())
-      throw DuplicateEntity.product(user.username);
+    if (userRepository.findByUsername(user.username).isPresent())
+      throw DuplicateEntity.user(user.username);
     return userRepository.save(user);
   }
 }
