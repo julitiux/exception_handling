@@ -15,7 +15,7 @@ public class DuplicateEntity extends RuntimeException {
     this.entityId = entityId;
   }
 
-  public static DuplicateEntity product(final String entityId) {
+  public static DuplicateEntity user(final String entityId) {
     return new DuplicateEntity("Product", entityId);
   }
   
