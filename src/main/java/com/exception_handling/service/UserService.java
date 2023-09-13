@@ -1,4 +1,4 @@
-package com.exception_handling;
+package com.exception_handling.service;
 
 import com.exception_handling.domain.User;
 
