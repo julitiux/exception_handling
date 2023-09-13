@@ -1,4 +1,4 @@
-package com.exception_handling.webApi;
+package com.exception_handling.webApi.handler;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;

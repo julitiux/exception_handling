@@ -1,4 +1,4 @@
-package com.exception_handling.webApi;
+package com.exception_handling.webApi.handler;
 
 import com.exception_handling.domain.DuplicateEntity;
 import org.springframework.http.HttpStatus;
