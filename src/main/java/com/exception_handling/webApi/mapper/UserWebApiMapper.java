@@ -1,4 +1,4 @@
-package com.exception_handling.webApi;
+package com.exception_handling.webApi.mapper;
 
 import com.exception_handling.domain.User;
 import com.exception_handling.webApi.domain.AddUserCommand;
