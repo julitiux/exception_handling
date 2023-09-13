@@ -1,6 +1,8 @@
 package com.exception_handling.webApi;
 
 import com.exception_handling.domain.User;
+import com.exception_handling.webApi.domain.AddUserCommand;
+import com.exception_handling.webApi.domain.UserDto;
 
 import java.util.Objects;
 
