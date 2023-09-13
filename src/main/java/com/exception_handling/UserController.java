@@ -19,7 +19,7 @@ public class UserController {
   @RequestMapping(value = "/user", method = RequestMethod.POST)
   public ResponseEntity<UserDto> addUser(@RequestBody AddUserCommand addUserCommand) {
     var saved = userService.addUser(UserWebApiMapper.of(addUserCommand));
-    if (Objects.nonNull(saved.id))
+    if (Objects.nonNull(saved.getId()))
       return new ResponseEntity<>(UserWebApiMapper.of(saved), HttpStatus.CREATED);
     else
       return new ResponseEntity<>(HttpStatus.BAD_REQUEST);

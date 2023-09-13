@@ -1,4 +1,4 @@
-package com.exception_handling;
+package com.exception_handling.repository;
 
 import com.exception_handling.domain.User;
 import org.springframework.data.repository.CrudRepository;

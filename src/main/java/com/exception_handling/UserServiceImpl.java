@@ -1,6 +1,7 @@
 package com.exception_handling;
 
 import com.exception_handling.domain.User;
+import com.exception_handling.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
