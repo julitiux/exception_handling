@@ -1,5 +1,6 @@
 package com.exception_handling;
 
+import com.exception_handling.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.exception_handling;
+package com.exception_handling.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;

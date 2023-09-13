@@ -1,5 +1,7 @@
 package com.exception_handling;
 
+import com.exception_handling.domain.User;
+
 import java.util.Objects;
 
 public class UserWebApiMapper {
@@ -9,7 +11,7 @@ public class UserWebApiMapper {
   }
 
   public static UserDto of(final User user) {
-    return new UserDto(Objects.requireNonNull(user.id).toString(), user.username);
+    return new UserDto(Objects.requireNonNull(user.getId()).toString(), user.getUsername());
   }
 
 }
