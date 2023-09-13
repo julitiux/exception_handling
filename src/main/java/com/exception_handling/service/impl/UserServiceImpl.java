@@ -1,6 +1,6 @@
 package com.exception_handling.service.impl;
 
-import com.exception_handling.DuplicateEntity;
+import com.exception_handling.webApi.DuplicateEntity;
 import com.exception_handling.domain.User;
 import com.exception_handling.repository.UserRepository;
 import com.exception_handling.service.UserService;

@@ -1,4 +1,4 @@
-package com.exception_handling;
+package com.exception_handling.webApi;
 
 import com.exception_handling.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

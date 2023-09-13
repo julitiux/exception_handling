@@ -1,4 +1,4 @@
-package com.exception_handling;
+package com.exception_handling.webApi;
 
 import lombok.Getter;
 
